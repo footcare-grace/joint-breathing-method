@@ -365,6 +365,9 @@
   .pill-all{background:var(--navy-900);color:#fff;}
   .pill-half{background:var(--blue-100);color:var(--navy-800);}
   .pill-single{background:var(--paper-2);color:var(--ink-soft);border:1px solid var(--line);}
+  tbody tr.done td{color:#999;text-decoration:line-through;background:#f3f3f3;font-weight:400}
+  tbody tr.done .pill{opacity:.6}
+  .done-label{display:inline-block;font-size:11px;font-weight:700;color:#fff;background:#999;border-radius:4px;padding:1px 6px;margin-left:6px;text-decoration:none}
   .table-note{font-size:12.5px;color:var(--ink-soft);margin-top:12px;}
 
   /* ---------- faq ---------- */
@@ -498,7 +501,7 @@
 <header class="hero">
   <div class="hero-bg" aria-hidden="true"></div>
   <div class="wrap hero-inner">
-    <div class="eyebrow"><svg class="ic-svg"><use href="#i-bone"/></svg> 単関節（膝）／復習セミナー／オール関節 同時募集中｜先着順</div>
+    <div class="eyebrow"><svg class="ic-svg"><use href="#i-bone"/></svg> 次回：ハーフ関節セミナー（12/12-13）募集中｜先着順</div>
     <h1>関節痛で苦しむ人を、<br><em>一人でも多く</em>救えるようになる。</h1>
     <p class="sub"><strong>知識より先に、治し方を身につける。</strong>その日から現場で使える技術が手に入ります。<br><strong style="color:#ffe3b0;"><svg class="ic-svg"><use href="#i-warning"/></svg> 各回先着順。定員に達し次第、募集を締め切ります。</strong></p>
     <div class="hero-cta-row">
@@ -506,11 +509,10 @@
       <a href="#curriculum" class="btn btn-ghost">カリキュラムを見る</a>
     </div>
     <div class="hero-meta">
-      <span><svg class="ic-svg"><use href="#i-calendar"/></svg> 単関節（膝）：2026年10月10日（土）</span>
-      <span><svg class="ic-svg"><use href="#i-calendar"/></svg> 復習会（オール関節・既受講者対象）：10月11日（日）</span>
-      <span><svg class="ic-svg"><use href="#i-calendar"/></svg> オール関節（完全）：2026年11月7日（土）・8日（日）</span>
+      <span><svg class="ic-svg"><use href="#i-calendar"/></svg> 次回開催：2026年12月12日（土）・13日（日） <span class="pill pill-half">ハーフ関節</span></span>
+      <span><svg class="ic-svg"><use href="#i-calendar"/></svg> 次々回開催：2027年1月16日（土）・17日（日） <span class="pill pill-single">単関節</span></span>
       <span><svg class="ic-svg"><use href="#i-pin"/></svg> 東京都港区芝浦</span>
-      <span><svg class="ic-svg"><use href="#i-users"/></svg> 各回定員6〜8名・先着順</span>
+      <span><svg class="ic-svg"><use href="#i-users"/></svg> 各回先着順・少人数制</span>
     </div>
     <div class="instructor-card">
       <div class="instructor-avatar"><svg class="ic-svg"><use href="#i-stethoscope"/></svg></div>
@@ -702,24 +704,41 @@
   <div class="wrap" style="max-width:880px;">
     <div class="section-head" style="text-align:center;">
       <span class="section-label">EVENT INFO</span>
-      <h2 class="section-title">開催概要｜同時募集中</h2>
+      <h2 class="section-title">開催概要｜次回・次々回</h2>
       <p class="section-desc" style="margin:0 auto;">少人数制開催。定員に達し次第、各回とも募集を締め切ります。</p>
     </div>
     <div class="overview-urgency"><svg class="ic-svg"><use href="#i-warning"/></svg> 参加をご希望の場合は、DMよりお早めにお問い合わせください</div>
     <div class="overview-grid">
       <div class="overview-card">
         <div class="overview-top">
-          <span class="badge"><span class="dot-ic" style="color:var(--red-600)"></span> 先着順</span>
-          <h3>単関節（膝）セミナー</h3>
-          <p class="cap">Joint Breathing Method™ 膝関節フォーカスコース</p>
+          <span class="badge"><span class="dot-ic" style="color:var(--red-600)"></span> 次回開催・先着順</span>
+          <h3>ハーフ関節①（下半身編）セミナー</h3>
+          <p class="cap">Joint Breathing Method™ 足首・膝・股関節コース</p>
         </div>
         <div class="overview-body">
-          <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-calendar"/></svg> 日程</div><div class="v">2026年10月10日（土）</div></div>
+          <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-calendar"/></svg> 日程</div><div class="v">2026年12月12日（土）・13日（日）</div></div>
+          <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-pin"/></svg> 会場</div><div class="v">東京都港区芝浦4-5-9 ハーバー芝浦301</div></div>
+          <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-users"/></svg> 定員</div><div class="v">10名（先着順）</div></div>
+          <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-tag"/></svg> 参加費</div><div class="v"><span class="price">¥60,000</span><span class="sub">復習生は2名まで参加可（¥25,000／名）</span></div></div>
+          <div class="overview-cta">
+            <a href="#" class="btn btn-cta cta-link">ハーフ関節をDMで申し込む →</a>
+            <p class="overview-cta-note">インスタグラムにジャンプします</p>
+          </div>
+        </div>
+      </div>
+      <div class="overview-card">
+        <div class="overview-top">
+          <span class="badge"><span class="dot-ic" style="color:var(--red-600)"></span> 次々回開催・先着順</span>
+          <h3>単関節（股関節）セミナー</h3>
+          <p class="cap">Joint Breathing Method™ 股関節フォーカスコース</p>
+        </div>
+        <div class="overview-body">
+          <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-calendar"/></svg> 日程</div><div class="v">2027年1月16日（土）</div></div>
           <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-pin"/></svg> 会場</div><div class="v">東京都港区芝浦4-5-9 ハーバー芝浦301</div></div>
           <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-users"/></svg> 定員</div><div class="v">8名（先着順）</div></div>
           <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-tag"/></svg> 参加費</div><div class="v"><span class="price">¥35,000</span></div></div>
           <div class="overview-cta">
-            <a href="#" class="btn btn-cta cta-link">単関節（膝）をDMで申し込む →</a>
+            <a href="#" class="btn btn-cta cta-link">単関節（股関節）をDMで申し込む →</a>
             <p class="overview-cta-note">インスタグラムにジャンプします</p>
           </div>
         </div>
@@ -731,30 +750,12 @@
           <p class="cap">オール関節（完全）セミナー既受講者向け復習会</p>
         </div>
         <div class="overview-body">
-          <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-calendar"/></svg> 日程</div><div class="v">2026年10月11日（日）</div></div>
+          <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-calendar"/></svg> 日程</div><div class="v">2027年1月17日（日）</div></div>
           <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-pin"/></svg> 会場</div><div class="v">東京都港区芝浦4-5-9 ハーバー芝浦301</div></div>
-          <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-users"/></svg> 定員</div><div class="v">8名（先着順）</div></div>
+          <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-users"/></svg> 定員</div><div class="v">6〜10名（先着順）</div></div>
           <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-tag"/></svg> 参加費</div><div class="v"><span class="price">¥20,000</span></div></div>
           <div class="overview-cta">
             <a href="#" class="btn btn-cta cta-link">復習会をDMで申し込む →</a>
-            <p class="overview-cta-note">インスタグラムにジャンプします</p>
-          </div>
-        </div>
-      </div>
-      <div class="overview-card">
-        <div class="overview-top">
-          <span class="badge"><span class="dot-ic" style="color:var(--red-600)"></span> 先着順</span>
-          <h3>オール関節（完全）セミナー</h3>
-          <p class="cap">Joint Breathing Method™ 2日間集中コース</p>
-        </div>
-        <div class="overview-body">
-          <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-calendar"/></svg> 日程</div><div class="v">2026年11月7日（土）・8日（日）</div></div>
-          <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-pin"/></svg> 会場</div><div class="v">東京都港区芝浦4-5-9 ハーバー芝浦301</div></div>
-          <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-users"/></svg> 定員</div><div class="v">6名（先着順）</div></div>
-          <div class="ov-row"><div class="k"><svg class="ic-svg"><use href="#i-tag"/></svg> 参加費</div><div class="v"><span class="price">¥100,000</span><span class="sub">復習生は2名まで参加可（¥25,000／名）</span></div></div>
-          <div class="overview-cta">
-            <!-- フォーム/決済が整ったら、このボタン文言を「オール関節セミナーに申し込む →」等に戻してください -->
-            <a href="#" class="btn btn-cta cta-link">オール関節をDMで申し込む →</a>
             <p class="overview-cta-note">インスタグラムにジャンプします</p>
           </div>
         </div>
@@ -770,7 +771,7 @@
     <div class="section-head">
       <span class="section-label">ANNUAL SCHEDULE</span>
       <h2 class="section-title">年間スケジュール（2026年10月〜2027年9月）</h2>
-      <p class="section-desc">単関節・ハーフ関節・オール関節（完全）が3ヶ月周期で巡回します。現在、<strong>単関節（膝）セミナー／復習セミナー（10月）</strong>と<strong>オール関節（完全）セミナー（11月）</strong>を同時募集中です。</p>
+      <p class="section-desc">単関節・ハーフ関節・オール関節（完全）が3ヶ月周期で巡回します。現在、<strong>ハーフ関節セミナー（12月）</strong>と<strong>単関節（股関節）／復習セミナー（1月）</strong>を募集中です。</p>
     </div>
     <div class="table-scroll">
       <table>
@@ -778,11 +779,12 @@
           <tr><th>日程</th><th>開催月</th><th>種別</th><th>内容・料金</th></tr>
         </thead>
         <tbody>
-          <tr class="highlight"><td>10/10（土）</td><td>2026年10月</td><td><span class="pill pill-single">単関節</span></td><td>単関節（膝） ¥35,000（定員8名）</td></tr>
-          <tr class="highlight"><td>10/11（日）</td><td>2026年10月</td><td><span class="pill pill-single">復習会</span></td><td>復習セミナー ¥20,000（既受講者限定・定員8名）</td></tr>
-          <tr class="highlight"><td>11/7（土）・8（日）</td><td>2026年11月</td><td><span class="pill pill-all">オール関節（完全）</span></td><td>6関節すべて ¥100,000（定員6名）</td></tr>
-          <tr><td>12/12（土）・13（日）</td><td>2026年12月</td><td><span class="pill pill-half">ハーフ関節①下半身編</span></td><td>足首・膝・股 ¥60,000（定員10名）</td></tr>
-          <tr><td>1/16（土）・17（日）</td><td>2027年1月</td><td><span class="pill pill-single">単関節</span></td><td>股関節 ¥35,000（定員8名）</td></tr>
+          <tr class="done"><td>10/10（土）<span class="done-label">終了</span></td><td>2026年10月</td><td><span class="pill pill-single">単関節</span></td><td>単関節（膝） ¥35,000（定員8名）</td></tr>
+          <tr class="done"><td>10/11（日）<span class="done-label">終了</span></td><td>2026年10月</td><td><span class="pill pill-single">復習会</span></td><td>復習セミナー ¥20,000（既受講者限定・定員8名）</td></tr>
+          <tr class="done"><td>11/7（土）・8（日）<span class="done-label">終了</span></td><td>2026年11月</td><td><span class="pill pill-all">オール関節（完全）</span></td><td>6関節すべて ¥100,000（定員6名）</td></tr>
+          <tr class="highlight"><td>12/12（土）・13（日）</td><td>2026年12月</td><td><span class="pill pill-half">ハーフ関節①下半身編</span></td><td>足首・膝・股 ¥60,000（定員10名）</td></tr>
+          <tr class="highlight"><td>1/16（土）</td><td>2027年1月</td><td><span class="pill pill-single">単関節</span></td><td>股関節 ¥35,000（定員8名）</td></tr>
+          <tr class="highlight"><td>1/17（日）</td><td>2027年1月</td><td><span class="pill pill-single">復習会</span></td><td>復習セミナー ¥20,000（既受講者限定）</td></tr>
           <tr class="highlight"><td>2/13（土）・14（日）</td><td>2027年2月</td><td><span class="pill pill-all">オール関節（完全）</span></td><td>¥100,000（定員6名）</td></tr>
           <tr><td>3/13（土）・14（日）</td><td>2027年3月</td><td><span class="pill pill-half">ハーフ関節②上半身+体幹編</span></td><td>骨盤・肩・手首 ¥60,000（定員10名）</td></tr>
           <tr><td>4/10（土）・11（日）</td><td>2027年4月</td><td><span class="pill pill-single">単関節</span></td><td>足関節 ¥35,000（定員8名）</td></tr>
@@ -794,7 +796,7 @@
         </tbody>
       </table>
     </div>
-    <p class="table-note"><span class="dot-ic" style="color:var(--blue-600)"></span> ハイライト行＝現在募集中の単関節（膝）／復習セミナー／オール関節（完全）です。</p>
+    <p class="table-note"><span class="dot-ic" style="color:var(--blue-600)"></span> ハイライト行＝現在募集中の回です。グレーの行は終了しました。</p>
   </div>
 </section>
 
@@ -831,7 +833,7 @@
   <div class="wrap">
     <div class="final-cta">
       <h2>関節痛を、片っ端から取り除けるセラピストへ。</h2>
-      <p>各回先着順・定員に達し次第締め切ります。単関節（膝）セミナー（10/10）／復習セミナー（10/11）／オール関節セミナー（11/7-8）、同時募集中です。</p>
+      <p>各回先着順・定員に達し次第締め切ります。ハーフ関節セミナー（12/12-13）、単関節（股関節）セミナー（1/16）／復習セミナー（1/17）を募集中です。</p>
       <a href="#overview" class="btn btn-cta">開催概要をチェックする →</a>
     </div>
   </div>
